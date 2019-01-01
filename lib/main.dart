@@ -23,7 +23,7 @@ class _MyAppState extends State<MyApp> {
           appBar: AppBar(
             title: Text("EasyList"),
           ),
-          body: ProductManager('Food Tester')),
+          body: ProductManager(startingProduct: 'Food Tester')),
     );
   }
 }
